@@ -1,0 +1,12 @@
+spring.application.name: demoBatch
+
+spring.profiles.active: mysql
+
+spring.profiles.include:
+  - database
+
+server:
+  error:
+    whitelabel:
+      enabled: false
+  shutdown: graceful
