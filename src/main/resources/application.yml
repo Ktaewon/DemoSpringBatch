@@ -5,6 +5,11 @@ spring.profiles.active: mysql
 spring.profiles.include:
   - database
 
+spring:
+  batch:
+    job:
+      name: ${job.name:NONE}
+
 server:
   error:
     whitelabel:
