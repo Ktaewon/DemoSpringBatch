@@ -1,6 +1,7 @@
 spring.application.name: demoBatch
 
 spring.profiles.active: mysql
+logging.level.org.springframework.batch: DEBUG
 
 spring.profiles.include:
   - database
